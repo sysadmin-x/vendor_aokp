@@ -1,9 +1,6 @@
 # Version information used on all builds
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76D BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
 
-<<<<<<< HEAD
-# Rom Manager properties
-=======
 CURRENT_VERSION=$(TARGET_PRODUCT)_build-29
 
 ifneq ($(TARGET_PRODUCT),aokp_p999)
@@ -19,7 +16,6 @@ else
         ro.cm.version=9.0.0-$(CURRENT_VERSION)
 endif
 
->>>>>>> a5f66b3... bump version
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=teamkang \
     ro.modversion=$(TARGET_PRODUCT)_milestone-4

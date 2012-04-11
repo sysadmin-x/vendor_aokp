@@ -1,3 +1,4 @@
 add_lunch_combo aokp_maguro-userdebug
 add_lunch_combo aokp_toro-userdebug
 add_lunch_combo aokp_tenderloin-userdebug
+add_lunch_combo aokp_malata_smba1002-userdebug
